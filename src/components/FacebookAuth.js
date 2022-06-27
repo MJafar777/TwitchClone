@@ -1,17 +1,11 @@
-import React from 'react';
-
+import React, { useEffect } from "react";
 
 const FacebookAuth = () => {
-
   
-
-
-  return (
-    <div>
-      
-    </div>
-  );
+  useEffect(() => {
+  }, []);
+  
+  return <div></div>;
 };
-
 
 export default FacebookAuth;
